@@ -1,0 +1,7 @@
+def second_largest(t):
+    unique_elements = list(set(t))
+    unique_elements.sort()
+    return unique_elements[-2] if len(unique_elements) >= 2 else None
+
+my_tuple = (1, 2, 3, 4, 5)
+second_largest_value = second_largest(my_tuple)

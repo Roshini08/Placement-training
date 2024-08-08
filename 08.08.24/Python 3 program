@@ -1,0 +1,6 @@
+my_tuple = (1, 2, 3, 4)
+
+temp_list = list(my_tuple)
+temp_list[1] = 99
+
+modified_tuple = tuple(temp_list)
